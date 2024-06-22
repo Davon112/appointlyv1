@@ -1,0 +1,159 @@
+/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
+
+body{
+    background: url(./images/AdobeStock_401329850.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+nav{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 20px;
+    text-shadow: white 1px 1px 10px;
+    background-color: white;
+    
+    
+}
+
+
+
+
+.title{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 100px;
+    color:#F8C954 ;
+    text-shadow: white 1px 1px 10px;
+    
+
+
+}
+
+.title span{
+    margin-top: 0px;
+    color: white;
+    margin-left: 50px;
+    text-shadow: #F8C954 1px 1px 10px;
+}
+
+
+  
+
+
+#team {
+   
+    margin-top: 10px;
+}
+
+
+
+
+
+section .section-title {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 0px;
+    text-align: center;
+    color:#F8C954 ;
+    text-shadow: black 1px 1px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    background-color: white;
+   
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 35px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 250px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 30px;
+    color:#F8C954 ;
+    text-shadow: black 1px 2px;
+}
+
+
+
